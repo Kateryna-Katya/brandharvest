@@ -1,0 +1,94 @@
+.home-container{
+    padding-top: 144px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+}
+.home-wrapper{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
+}
+.home-title{
+font-family: "Fredoka", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.1875;
+    text-align: center;
+    color: #0b0b0d;
+}
+.home-wrapper p{
+    text-align: center;
+}
+.home-link{
+    margin-top: 32px;
+    border-radius: 24px;
+        padding: 12px 24px;
+        width: 266px;
+        height: 42px;
+background: #144c0f;
+display: flex;
+justify-content: center;
+align-items: center;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1;
+    color: #f6f6ff;
+    transition: background 0.3s ease-in-out;
+}
+.home-link:hover{
+background: #206919;
+}
+.home-img-wrapper{
+position: relative;
+}
+.home-img-one{
+    position: absolute;
+    top: -24%;
+    right: 0;
+    width: 32px;
+        height: 38px;
+}
+.home-img-two{
+    position: absolute;
+    bottom: 0;
+left: -4%;
+width: 32px;
+    height: 38px;
+}
+@media only screen and (min-width: 1440px) {
+.home-container{
+    padding-top: 197px;
+flex-direction: row;
+justify-content: center;
+    gap: 32px;
+}
+.home-wrapper{
+width: 628px;
+}
+.home-title{
+font-size: 48px;
+line-height: 1.08333;
+}
+
+.home-img-wrapper{
+width: 636px;
+    height: 284px;
+}
+.home-img-one{
+    position: absolute;
+    top: -18%;
+    right: 0;
+width: 46px;
+    height: 52px;
+}
+.home-img-two{
+    position: absolute;
+    bottom: 0;
+left: -3%;
+width: 44px;
+    height: 60px;
+}    
+}
