@@ -50,8 +50,8 @@ function initGameSwiper() {
 
     breakpoints: {
       1440: {
-        slidesPerView: 4.1,
-        spaceBetween: 24,
+        slidesPerView: 4.3,
+        spaceBetween: 4,
       },
     },
   });
