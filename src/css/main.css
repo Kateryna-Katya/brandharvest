@@ -92,3 +92,52 @@ width: 44px;
     height: 60px;
 }    
 }
+/* Discover the Joy of Farm Life */
+.discover-section{
+background: #7189bb;
+}
+.discover-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 32px;
+}
+.discover-navigation{
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.btn{
+    background-color: inherit;
+    border: none;
+}
+.discover-prev.swiper-button-disabled,
+.discover-next.swiper-button-disabled,
+.game-prev.swiper-button-disabled,
+.game-next.swiper-button-disabled {
+    opacity: 0.4;
+
+}
+@media only screen and (min-width: 1440px) {
+ .discover-navigation{
+    display: none;
+ }
+.discover-text-wrapper{
+width: 766px;
+margin-left: auto;
+margin-right: auto;
+flex-direction: row;
+gap: 24px;
+margin-bottom: 48px;
+}
+.discover-swiper .swiper-wrapper{
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.discover-swiper .swiper-slide{
+width: 416px;
+    height: 184px;
+}
+}
